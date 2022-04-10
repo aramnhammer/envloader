@@ -1,17 +1,14 @@
 [package]
-name = "environ"
+name = "envloader"
 version = "0.1.0"
 edition = "2021"
-description = "A simple environment loader and setter"
+description = "A simple environment setter"
 license-file = "LICENSE"
-documentation = "https://github.com/aramnhammer/environ"
-homepage = "https://github.com/aramnhammer/environ"
-repository = "https://github.com/aramnhammer/environ"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+documentation = "https://github.com/aramnhammer/envloader"
+homepage = "https://github.com/aramnhammer/envloader"
+repository = "https://github.com/aramnhammer/envloader"
 
 [dependencies]
-
 
 [dev-dependencies]
 tempdir = "0.3"
