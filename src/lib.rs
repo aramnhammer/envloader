@@ -6,11 +6,22 @@
 //!
 //! Where `file_path` is a `&str` path to the desired env to load, and its content is as follows:
 //!
-//! ```
-// E1=123
-// E2=ABC
-//! ```
+//!```ignore
+//! E1=123
+//! E2=ABC
+//!```
 //! The result would be environment variables (`E1`, `E2`) being set with the specified values after the first `=` sign.
+//! 
+//! A code snippet example for a use case:
+//! ```
+//! use std::{fmt::Result, fs::metadata};
+//! 
+//! let config_path = "config/server.env";
+//! match metadata(config_path) {
+//! Ok(_) => envloader::EnvironmentLoader::new(config_path),
+//! Err(_) => println!("Using system environment"),
+//! }
+//! ```
 //!
 
 use std::env;
