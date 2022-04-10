@@ -1,7 +1,7 @@
 
 [![Rust](https://github.com/aramnhammer/environ/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/aramnhammer/environ/actions/workflows/rust.yml)
 
-# environ
+# envloader
 Simple environment loader/setter that loads desired env variables from a file and inserts them into the runtime environment.
 
 ## use cases
