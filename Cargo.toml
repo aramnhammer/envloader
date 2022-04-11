@@ -4,7 +4,7 @@ version = "0.1.1"
 edition = "2021"
 description = "A simple environment setter"
 license-file = "LICENSE"
-documentation = "https://docs.rs/envloader/0.1.0/envloader/"
+documentation = "https://docs.rs/envloader"
 homepage = "https://github.com/aramnhammer/envloader"
 repository = "https://github.com/aramnhammer/envloader"
 
