@@ -11,7 +11,7 @@ Running an application that relies on environment variables locally by simply ha
 Add `envloader = "0.1.0"` to `cargo.toml`
 
 ## crates.io
-`https://crates.io/crates/envloader`
+https://crates.io/crates/envloader
 
 ## docs
-`https://docs.rs/envloader/0.1.0/envloader/`
+https://docs.rs/envloader/0.1.0/envloader/
