@@ -8,7 +8,7 @@ Simple environment loader/setter that loads desired env variables from a file an
 Running an application that relies on environment variables locally by simply having those variables in a file instead of setting your system environment every time.
 
 ## installing
-Add `envloader = "0.1.0"` to `cargo.toml`
+Add `envloader = "0.1.3"` to `cargo.toml`
 
 ## crates.io
 https://crates.io/crates/envloader
